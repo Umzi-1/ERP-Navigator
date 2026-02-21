@@ -1,0 +1,53 @@
+{
+  "version": "phase1.v1",
+  "sections": [
+    {
+      "id": "company_profile",
+      "title": "Company Profile",
+      "questions": [
+        {"id": "company_name", "type": "text", "required": true},
+        {"id": "industry", "type": "select", "required": true},
+        {"id": "employee_count", "type": "number", "required": true},
+        {"id": "annual_revenue_band", "type": "select", "required": true}
+      ]
+    },
+    {
+      "id": "current_stack",
+      "title": "Current Systems Landscape",
+      "questions": [
+        {"id": "accounting_system", "type": "text", "required": true},
+        {"id": "crm_system", "type": "text", "required": false},
+        {"id": "inventory_tool", "type": "text", "required": false},
+        {"id": "integration_count", "type": "number", "required": true}
+      ]
+    },
+    {
+      "id": "process_maturity",
+      "title": "Business Process Maturity",
+      "questions": [
+        {"id": "finance_close_days", "type": "number", "required": true},
+        {"id": "inventory_accuracy_percent", "type": "number", "required": true},
+        {"id": "manual_spreadsheets_dependency", "type": "scale_1_5", "required": true},
+        {"id": "approval_workflow_standardization", "type": "scale_1_5", "required": true}
+      ]
+    },
+    {
+      "id": "transformation_goals",
+      "title": "Transformation Goals & Constraints",
+      "questions": [
+        {"id": "target_go_live_months", "type": "number", "required": true},
+        {"id": "implementation_budget", "type": "number", "required": true},
+        {"id": "priority_objective", "type": "select", "required": true},
+        {"id": "regions_of_operation", "type": "multi_select", "required": true}
+      ]
+    }
+  ],
+  "scoringHints": {
+    "maturityScoreOutOf100": "Weight process_maturity at 45%, current_stack at 25%, goals realism at 30%.",
+    "complexityScoreOutOf100": "Weight integration_count, region count, and customization expectations."
+  },
+  "leadCapture": {
+    "gating": "email_before_report",
+    "requiredFields": ["contact_name", "work_email", "company_name", "phone"]
+  }
+}

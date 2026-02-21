@@ -1,0 +1,33 @@
+{
+  "company": {
+    "name": "Northstar Components Pvt Ltd",
+    "industry": "Manufacturing",
+    "employees": 140,
+    "context": "Rapid growth has outpaced current accounting and inventory processes across two plants."
+  },
+  "goals": {
+    "target_go_live_months": 8,
+    "implementation_budget_inr": 8500000,
+    "primary_objective": "Unify finance and operations with better inventory control"
+  },
+  "scope": {
+    "required_modules": [
+      "Finance & Accounting",
+      "Inventory Management",
+      "Procurement",
+      "Production Planning",
+      "MIS & KPI Dashboards"
+    ],
+    "integrations": [
+      "Shopify",
+      "Payroll provider",
+      "Courier API",
+      "Business intelligence warehouse"
+    ],
+    "shortlisted_vendors": [
+      "Microsoft",
+      "SAP",
+      "Odoo"
+    ]
+  }
+}
