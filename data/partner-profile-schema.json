@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ERP Navigator Partner Profile",
+  "type": "object",
+  "required": [
+    "companyName",
+    "primaryRegions",
+    "supportedVendors",
+    "certifications",
+    "teamSize",
+    "minimumProjectValueINR",
+    "maximumProjectValueINR",
+    "contactEmail"
+  ],
+  "properties": {
+    "companyName": {"type": "string", "minLength": 2},
+    "primaryRegions": {
+      "type": "array",
+      "items": {"type": "string"},
+      "minItems": 1
+    },
+    "supportedVendors": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["Oracle", "SAP", "Microsoft", "Infor", "Epicor", "Workday", "Acumatica", "Sage", "Odoo", "IFS"]
+      },
+      "minItems": 1
+    },
+    "certifications": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "teamSize": {"type": "integer", "minimum": 1},
+    "industryFocus": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "minimumProjectValueINR": {"type": "number", "minimum": 0},
+    "maximumProjectValueINR": {"type": "number", "minimum": 0},
+    "successRatePercent": {"type": "number", "minimum": 0, "maximum": 100},
+    "contactEmail": {"type": "string", "format": "email"}
+  }
+}
