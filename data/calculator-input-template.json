@@ -1,0 +1,29 @@
+{
+  "version": "phase1.v1",
+  "currency": "INR",
+  "tco": {
+    "license_per_user_per_month": 0,
+    "estimated_users": 0,
+    "implementation_services": 0,
+    "integration_cost": 0,
+    "data_migration_cost": 0,
+    "change_management_cost": 0,
+    "annual_support_cost": 0,
+    "hosting_or_infra_cost": 0,
+    "time_horizon_years": 3
+  },
+  "roi": {
+    "labor_hours_saved_per_month": 0,
+    "loaded_hourly_cost": 0,
+    "inventory_carrying_cost_reduction_annual": 0,
+    "error_or_rework_reduction_annual": 0,
+    "revenue_uplift_annual": 0,
+    "total_investment": 0
+  },
+  "outputMetrics": [
+    "three_year_tco",
+    "annual_benefit",
+    "payback_months",
+    "three_year_roi_percent"
+  ]
+}

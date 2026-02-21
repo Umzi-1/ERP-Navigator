@@ -1,0 +1,82 @@
+[
+  {
+    "id": "oracle",
+    "name": "Oracle",
+    "oemAuthorized": true,
+    "segments": ["mid-market", "enterprise"],
+    "deployment": ["cloud", "hybrid"],
+    "coreModules": ["finance", "procurement", "supply_chain", "hcm", "analytics"]
+  },
+  {
+    "id": "sap",
+    "name": "SAP",
+    "oemAuthorized": true,
+    "segments": ["mid-market", "enterprise"],
+    "deployment": ["cloud", "hybrid", "on_prem"],
+    "coreModules": ["finance", "supply_chain", "manufacturing", "procurement", "analytics"]
+  },
+  {
+    "id": "microsoft",
+    "name": "Microsoft",
+    "oemAuthorized": true,
+    "segments": ["smb", "mid-market", "enterprise"],
+    "deployment": ["cloud", "hybrid"],
+    "coreModules": ["finance", "sales", "project_operations", "supply_chain", "field_service"]
+  },
+  {
+    "id": "infor",
+    "name": "Infor",
+    "oemAuthorized": true,
+    "segments": ["mid-market", "enterprise"],
+    "deployment": ["cloud", "on_prem"],
+    "coreModules": ["manufacturing", "finance", "distribution", "asset_management", "hcm"]
+  },
+  {
+    "id": "epicor",
+    "name": "Epicor",
+    "oemAuthorized": true,
+    "segments": ["smb", "mid-market"],
+    "deployment": ["cloud", "on_prem"],
+    "coreModules": ["manufacturing", "inventory", "finance", "distribution", "crm"]
+  },
+  {
+    "id": "workday",
+    "name": "Workday",
+    "oemAuthorized": true,
+    "segments": ["mid-market", "enterprise"],
+    "deployment": ["cloud"],
+    "coreModules": ["hcm", "finance", "planning", "analytics", "payroll"]
+  },
+  {
+    "id": "acumatica",
+    "name": "Acumatica",
+    "oemAuthorized": true,
+    "segments": ["smb", "mid-market"],
+    "deployment": ["cloud", "private_cloud"],
+    "coreModules": ["finance", "distribution", "manufacturing", "crm", "project_accounting"]
+  },
+  {
+    "id": "sage",
+    "name": "Sage",
+    "oemAuthorized": true,
+    "segments": ["smb", "mid-market"],
+    "deployment": ["cloud", "hybrid", "on_prem"],
+    "coreModules": ["finance", "accounting", "inventory", "payroll", "hr"]
+  },
+  {
+    "id": "odoo",
+    "name": "Odoo",
+    "oemAuthorized": true,
+    "segments": ["smb", "mid-market"],
+    "deployment": ["cloud", "on_prem"],
+    "coreModules": ["sales", "crm", "inventory", "manufacturing", "accounting"]
+  },
+  {
+    "id": "ifs",
+    "name": "IFS",
+    "oemAuthorized": true,
+    "segments": ["mid-market", "enterprise"],
+    "deployment": ["cloud", "hybrid"],
+    "coreModules": ["asset_management", "field_service", "manufacturing", "finance", "project_management"]
+  }
+]

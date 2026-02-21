@@ -1,0 +1,119 @@
+{
+  "modules": [
+    "finance",
+    "procurement",
+    "inventory",
+    "manufacturing",
+    "crm",
+    "hcm",
+    "analytics",
+    "project_management"
+  ],
+  "vendors": {
+    "Oracle": {
+      "finance": "advanced",
+      "procurement": "advanced",
+      "inventory": "advanced",
+      "manufacturing": "intermediate",
+      "crm": "intermediate",
+      "hcm": "advanced",
+      "analytics": "advanced",
+      "project_management": "intermediate"
+    },
+    "SAP": {
+      "finance": "advanced",
+      "procurement": "advanced",
+      "inventory": "advanced",
+      "manufacturing": "advanced",
+      "crm": "intermediate",
+      "hcm": "intermediate",
+      "analytics": "advanced",
+      "project_management": "intermediate"
+    },
+    "Microsoft": {
+      "finance": "advanced",
+      "procurement": "intermediate",
+      "inventory": "advanced",
+      "manufacturing": "intermediate",
+      "crm": "advanced",
+      "hcm": "basic",
+      "analytics": "advanced",
+      "project_management": "advanced"
+    },
+    "Infor": {
+      "finance": "advanced",
+      "procurement": "intermediate",
+      "inventory": "advanced",
+      "manufacturing": "advanced",
+      "crm": "basic",
+      "hcm": "intermediate",
+      "analytics": "intermediate",
+      "project_management": "intermediate"
+    },
+    "Epicor": {
+      "finance": "intermediate",
+      "procurement": "intermediate",
+      "inventory": "advanced",
+      "manufacturing": "advanced",
+      "crm": "intermediate",
+      "hcm": "basic",
+      "analytics": "basic",
+      "project_management": "intermediate"
+    },
+    "Workday": {
+      "finance": "advanced",
+      "procurement": "intermediate",
+      "inventory": "basic",
+      "manufacturing": "basic",
+      "crm": "basic",
+      "hcm": "advanced",
+      "analytics": "advanced",
+      "project_management": "intermediate"
+    },
+    "Acumatica": {
+      "finance": "intermediate",
+      "procurement": "intermediate",
+      "inventory": "advanced",
+      "manufacturing": "intermediate",
+      "crm": "intermediate",
+      "hcm": "basic",
+      "analytics": "basic",
+      "project_management": "intermediate"
+    },
+    "Sage": {
+      "finance": "advanced",
+      "procurement": "basic",
+      "inventory": "intermediate",
+      "manufacturing": "basic",
+      "crm": "basic",
+      "hcm": "intermediate",
+      "analytics": "basic",
+      "project_management": "basic"
+    },
+    "Odoo": {
+      "finance": "intermediate",
+      "procurement": "intermediate",
+      "inventory": "advanced",
+      "manufacturing": "intermediate",
+      "crm": "intermediate",
+      "hcm": "basic",
+      "analytics": "basic",
+      "project_management": "intermediate"
+    },
+    "IFS": {
+      "finance": "advanced",
+      "procurement": "intermediate",
+      "inventory": "intermediate",
+      "manufacturing": "advanced",
+      "crm": "basic",
+      "hcm": "basic",
+      "analytics": "advanced",
+      "project_management": "advanced"
+    }
+  },
+  "scale": {
+    "basic": 1,
+    "intermediate": 2,
+    "advanced": 3
+  }
+}
